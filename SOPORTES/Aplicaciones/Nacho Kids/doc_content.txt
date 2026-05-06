@@ -1,0 +1,438 @@
+ Aprendizaje Inteligente | Encuentro 1
+ACTIVIDAD 1
+“USO DE APLICACIONES CON LA IA PARA MEJORAR EL LENGUAJE ORAL EN NIÑOS DE PREESCOLAR”
+Taller colaborativo en grupos de 3-4 docentes · 70 minutos
+Como funciona esta actividad
+Su grupo diseñará una 
+intervención 
+tecnopedagógica
+ basada en IA
+, alineada con el módulo 
+Docencia, tecnología y sociedad global
+.
+⚠️
+ No se trata de programar.
+Se trata de 
+pensar como estrategas
+:
+¿Qué problema resuelven? 
+¿Qué arquitectura de IA es viable? 
+¿Qué decisiones tomarían bajo incertidumbre? 
+¿Qué riesgos éticos están gestionando?
+Tiempo de diseño: 30 
+min  |
+  Presentación (
+elevator
+ pitch): 5 min por grupo
+Parte 1 — Plantilla de diseño del proyecto (30 minutos)
+Integrantes del grupo:  
+Nadia Soledad Mamani Ruiz
+Claudia Isabel Quisberth 
+Nuñez
+Javier Hugo Corina Pari
+Miriam Beatriz Zambrana Peñaloza
+Carmen Rosa Vasquez Mora
+Vladibostok
+ Waldino Callisaya Rivero
+Jenny del Rossio Coaquira 
+Rodriguez
+Area disciplinar:  
+Prof. de Matemática
+Prof. de Primaria
+Prof. de Filosofía y Sociales
+Prof. de Primaria
+Prof. de Educación Inicial
+Lic. en Educación
+Lic. en Educación
+FOTOS:
+1
+1
+2
+2
+3
+3
+4
+4
+6
+6
+5
+5
+7
+7
+1. El problema educativo que quieren resolver
+Describan el problema o necesidad educativa concreta que identifican en su contexto:
+Describan un problema real en su contexto educativo relacionado con:
+Transformación digital 
+Brecha tecnológica 
+Toma de decisiones basada en datos 
+Uso de IA en educación (X)
+“USO DE APLICACIONES CON LA IA PARA MEJORAR EL LENGUAJE ORAL EN NIÑOS DE PREESCOLAR”
+El desarrollo del lenguaje oral en la infancia es fundamental para el aprendizaje y la comunicación efectiva. En la etapa preescolar, los niños están en un período crítico de adquisición del lenguaje, donde la estimulación adecuada puede marcar una gran diferencia. Las aplicaciones que utilizan IA ofrecen recursos interactivos y personalizados que pueden captar la atención de los niños y hacer que el aprendizaje sea más atractivo.
+El desarrollo del lenguaje oral en la infancia es fundamental para el aprendizaje y la comunicación efectiva. En la etapa preescolar, los niños están en un período crítico de adquisición del lenguaje, donde la estimulación adecuada puede marcar una gran diferencia. Las aplicaciones que utilizan IA ofrecen recursos interactivos y personalizados que pueden captar la atención de los niños y hacer que el aprendizaje sea más atractivo.
+En muchos centros de educación preescolar, los niños presentan dificultades para expresarse oralmente: les cuesta pronunciar palabras, construir frases o comunicarse con seguridad. Aunque los docentes hacen grandes esfuerzos, no siempre cuentan con herramientas suficientes para acompañar este proceso de manera personalizada.
+Además, la transformación digital ha llegado a las aulas, pero muchas veces no se aprovecha plenamente para desarrollar habilidades tan importantes como el lenguaje oral. Esto genera una brecha entre lo que la tecnología podría aportar y lo que realmente se usa en el aula.
+Beneficios de la IA en el Aprendizaje del Lenguaje
+1. Personalización del Aprendizaje
+Las aplicaciones con IA pueden adaptarse a las necesidades individuales de cada niño. Utilizando algoritmos de aprendizaje automático, estas aplicaciones pueden identificar las áreas en las que un niño necesita más apoyo y ajustar las actividades en consecuencia. Esto permite un enfoque más centrado en el alumno, donde cada niño puede avanzar a su propio ritmo.
+2. Interactividad y Compromiso
+Las aplicaciones interactivas pueden hacer que el aprendizaje del lenguaje sea más divertido. A través de juegos, canciones y actividades visuales, los niños pueden participar activamente en su aprendizaje. La IA puede crear experiencias personalizadas que mantengan el interés de los niños, lo que es crucial para su desarrollo.
+3. Retroalimentación Inmediata
+Una de las ventajas de las aplicaciones con IA es la capacidad de proporcionar retroalimentación instantánea. Cuando un niño pronuncia una palabra o frase, la aplicación puede corregirlo o alentarlo de inmediato. Esta retroalimentación es esencial para el aprendizaje, ya que permite a los niños ajustar su pronunciación y mejorar su fluidez.
+Pregunta de investigación (Data-
+Driven
+) que guía el proyecto:
+ ¿Cómo el uso de aplicaciones con inteligencia artificial puede mejorar el desarrollo del lenguaje oral en niños de preescolar de manera personalizada y efectiva?
+¿A quién impacta dentro del ecosistema educativo? (estudiantes, docentes, instituciones...)
+ Estudiantes, Docentes, Familias y Unidad Educativa
+Estudiantes:
+Los niños dejan de ser pasivos y comienzan a interactuar, hablar, equivocarse y aprender sin miedo. Se sienten acompañados y motivados. Mejora la calidad educativa
+Docentes:
+Cuentan con una herramienta que les ayuda a observar el progreso de cada niño, optimizando su tiempo y mejorando la atención personalizada.
+Familias:
+Pueden apoyar desde casa, participando en el proceso de aprendizaje de sus hijos.
+Institución:
+Mejora la calidad educativa y se adapta a las demandas de la educación digital.
+2. Arquitectura de IA y toma de decisión tecnológica
+¿Qué tipo de arquitectura de IA es la más adecuada para este problema? Marquen una [X] y justifiquen:
+[ ]
+CNN — Red Convolucional
+Ideal para: imágenes, videos, reconocimiento visual
+www.z.ai
+  
+Qwen Studio
+https://education.github.com/pack
+https://github.com
+ 
+www.invideo
+[ ]
+RNN/LSTM — Red Recurrente
+Ideal para: secuencias, predicción temporal, trayectorias
+NotebookLM
+Antigrabity
+[X]
+Transformer
+ / LLM
+Ideal para: texto, lenguaje, 
+chatbots
+Build
+ | Google AI Studio
+NotebookLM
+Herramientas IA:
+Perplexity
+NotebookLM
+Antigrabity
+¿Por qué eligieron esa arquitectura? 
+Los modelos tipo 
+Transformer
+ son los más adecuados porque están diseñados para trabajar con el lenguaje humano. Permiten que las aplicaciones:
+Comprendan lo que el niño dice
+Respondan de forma natural
+Corrijan sin generar frustración
+Generen actividades interactivas
+Aprenden jugando 
+     
+Por ejemplo, cuando un niño pronuncia mal una palabra, la aplicación puede responder de manera amigable:
+"¡Muy bien! Vamos a intentarlo otra vez juntos…"
+Esto convierte el aprendizaje en una experiencia emocionalmente positiva.
+📌
+ Fundamento:
+Según la UNESCO, la inteligencia artificial tiene el potencial de personalizar el aprendizaje, adaptar contenidos y actividades al ritmo y nivel de cada estudiante, y ampliar las opciones pedagógicas cuando se integra de manera ética y centrada en el ser humano
+ 
+(Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura [UNESCO], 2024)
+.
+ 
+A
+demás, su uso pedagógico puede favorecer el desarrollo de habilidades comunicativas y otras competencias, siempre que complemente la labor docente y no la sustituya.
+¿Qué tipo de datos tienen? 
+Audios de los niños hablando
+Palabras y frases que pronuncian
+Respuestas dentro de aplicaciones educativas
+Interacciones con cuentos o juegos
+¿Qué problema resuelve esa arquitectura? 
+Detectar errores de pronunciación
+Generar respuestas adaptadas al nivel del niño
+Motivar la práctica constante mediante interacción
+Práctica constante del lenguaje 
+Corrección inmediata 
+Aprendizaje adaptado al ritmo del niño 
+Fundamento:
+Investigaciones de OECD indican que las tecnologías adaptativas mejoran el aprendizaje cuando se ajustan al ritmo del estudiante.
+ 
+(Organización para la Cooperación y el Desarrollo Económicos [OCDE], 2025)
+¿Qué tan viable es en su contexto institucional?
+La integración de la inteligencia artificial en contextos educativos resulta viable porque existen aplicaciones gratuitas o de bajo costo, accesibles desde celulares y tabletas, lo que facilita su uso en distintos entornos de aprendizaje sin exigir conocimientos técnicos avanzados; no obstante, su implementación efectiva depende de la capacitación docente y de garantizar condiciones de acceso equitativo para evitar que la brecha digital aumente las desigualdades educativas (Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura [UNESCO], 2026)
+.
+3. Los datos que necesitarían
+¿Qué tipo de datos necesitarían?
+¿De dónde los obtendrían?
+Grabaciones de voz
+Palabras aprendidas
+Frecuencia de práctica
+Nivel de participación
+Avance en pronunciación y fluidez
+Aplicaciones con IA
+Actividades en aula (cuentos, juegos, canciones)
+Registros del docente
+Participación familiar
+Audios de voz
+Transcripciones de texto
+Progreso académico
+Feedback
+ docente
+Interacción con la App
+Modelos ASR (Whisper)
+LMS Institucional
+Encuestas/Observación
+Datos y analítica para la toma de decisiones
+¿Qué datos necesita el sistema?
+Los 
+datos  deben
+ ser pertinentes, éticos y útiles 
+pedagogicamente
+:
+Grabaciones de audio (palabras, frases, narraciones simples.
+Pronunciación de fonemas
+Ritmo y fluidez del habla.
+Vocabulario utilizado (cantidad y variedad de palabras)
+Construcción de oraciones (estructural gramática básica)
+comprensión oral (respuestas a preguntas
+Respuestas a actividades (repetición identificación, narración)
+Tiempo de respuestas
+Nivel de aciertos y errores
+¿De dónde provienen?
+(LMS, encuestas, sistemas institucionales, simulaciones)
+Actividades en el aula (lectura en voz alta, juegos verbales)
+Uso directo de la aplicación (el niño habla y el sistema graba)
+Evaluaciones orales realizadas por el docente.
+Respuestas del niño dentro de la 
+app
+.
+Observaciones del docente.
+Actividades pedagógicas (cuentos, preguntas guiadas)
+Desafíos (nivel estratégico):
+Calidad de datos; Acceso; Integración; Sesgo
+Matriz DOFA — Gestión de Datos en Proyectos de IA Educativa
+Factor
+Fortalezas (Interno +)
+Oportunidades (Externo +)
+Debilidades (Interno -)
+Amenazas (Externo -)
+Calidad de datos
+Algunas Aplicaciones utilizan bases de datos amplias de voz infantil que permiten reconocimiento 
+progresivo
+ de lengua.
+Capacidad de recopilación de datos de desempeño (pronunciación, vocabulario) para seguimiento individual.
+Desarrollo de información en tablas (
+datasets
+) en niños hispanohablantes.
+Mejora continua de algoritmos (conjunto ordenado de instrucciones para solucionar un 
+problema)
+mediantes
+ aprendizaje automático
+Datos limitados o poco representativos del habla infantil real.
+Dificulatades
+ en el reconocimiento de pronunciación infantil (variabilidad alta)
+Uso de datos incorrectos o mal etiquetados que afecten la retroalimentación al estudiante.
+Riesgo de 
+sobreconfiar
+ en resultados automatizados.
+Acceso
+Disponibilidad creciente de 
+apps
+ en dispositivos 
+moviles
+ (celulares, tables) 
+Interfaces intuitivas 
+adapatadas
+ a niños de preescolar.
+Programas gubernamentales o institucionales que 
+promueven  inclusión
+ digital.
+Reducción progresivo
+ de costos tecnológicos.
+Dependencia de conexión a internet y dispositivos adecuados.
+Desigualdad en el acceso entre estudiantes.
+Ampliación de la brecha digital en contextos vulnerables.
+Dependencia tecnológica en instituciones con pocos recursos.
+Integración
+Posibilidad de complementar estrategias pedagógicas 
+tradiconales
+ (cuentos, juegos, diálogo)
+Integración con actividades lúdicas que favorecen el aprendizaje significativo.
+Formación docente 
+e
+ competencias digitales e IA educativa.
+Diseño de modelos híbridos (docente + IA) más efectivos.
+Falta de alineación entre la 
+app
+ y el currículo educativo.
+Uso aislado de la tecnología sin mediación pedagógica efectiva.
+.Reemplazo
+ de la interacción docente-niño por tecnología (lo 
+cualo
+ afecta el desarrollo del lenguaje)
+Implementación sin planificación pedagógica.
+Sesgo
+Algunos sistemas comienzan a incorporar diversidad 
+linguistica
+ básica.
+Posibilidad de ajustar configuraciones (idioma, nivel, velocidad)
+OpoMayor
+ conciencia sobre ética en IA educativa.
+Modelos entrenados con acentos extranjeros que pueden interpretar mal el habla infantil local.
+Reproducción de desigualdades 
+linguísticas
+.
+Posibles efectos negativos en la autoestima del niño si la IA corrige constantemente de forma inadecuada
+4. Objetivos SMART —: Diseño de Proyecto de IA Educativa
+1. Objetivo General (SMART)
+Diseñar, en un tiempo máximo de 
+30 minutos
+, un proyecto de inteligencia artificial aplicado a un problema educativo real, justificando 
+la arquitectura, los datos y las consideraciones éticas
+, y presentarlo en un 
+elevator
+ pitch de 5 minutos
+, evidenciando toma de decisiones fundamentadas.
+2. Objetivos Específicos
+✅
+ OE1 — Identificación del problema
+Definir un problema educativo concreto y contextualizado en un máximo de 
+10 minutos
+, formulando una pregunta de investigación clara y pertinente para la toma de decisiones.
+✅
+ OE2 — Selección de arquitectura de IA
+Seleccionar y justificar una arquitectura de IA (
+CNN, RNN/LSTM o 
+Transformer
+) en un máximo de 
+10 minutos
+, demostrando coherencia entre el tipo de datos y la solución propuesta.
+✅
+ OE3 — Análisis de datos
+Describir al menos 
+dos tipos de datos relevantes
+, su origen y 
+dos desafíos asociados
+ (calidad, acceso o sesgo) en un tiempo máximo de 
+5 minutos
+.
+✅
+ OE4 — Evaluación ética
+Identificar mínimo 
+dos riesgos éticos
+ del proyecto y proponer estrategias concretas de mitigación en un máximo de 
+5 minutos
+.
+✅
+ OE5 — Comunicación estratégica
+Presentar el proyecto en un 
+elevator
+ pitch de 5 minutos
+, cumpliendo la estructura definida y logrando comunicar impacto, viabilidad y pertinencia.
+5. La dimensión ética del proyecto
+Reflexionen sobre cada uno de los siguientes aspectos éticos. Marquen los que aplican y expliquen brevemente:
+ 
+Consideración ética
+Cómo lo abordarían?
+Aplica?
+[ ]
+Privacidad y protección de datos de los estudiantes
+ 
+Si / No
+[ ]
+Sesgo en los datos (grupos 
+sub-representados
+)
+ 
+Si / No
+[ ]
+Transparencia: Los docentes/estudiantes entenderán las decisiones del modelo?
+ 
+Si / No
+[ ]
+Riesgo de etiquetar o estigmatizar estudiantes con las predicciones
+ 
+Si / No
+[ ]
+Supervisión humana: ¿
+Quien
+ tiene la decisión final?
+ 
+Si / No
+Parte 2 — Guia para el 
+elevator
+ pitch (5 minutos por grupo)
+Usen esta guía para organizar su presentación. Tienen exactamente 5 minutos. Practiquen antes de presentar.
+Min 0-1
+El problema: Expliquen en una oración el problema educativo que identificaron. Debe ser concreto y reconocible para todos en la sala.
+Min 1-2
+La solución: Que tipo de IA usarían y por qué esa arquitectura es la adecuada. Usen los términos técnicos correctos (CNN, LSTM, 
+Transformer
+). Arquitectura elegida + por qué es correcta
+Min 2-3
+Los datos: Que información necesitaría el modelo para aprender. De donde vendría y que desafíos implica conseguirla.
+Min 3-4
+La ética: Cual es el riesgo más importante de su proyecto y como lo mitigarían. Sean específicos.
+Min 4-5
+El impacto: Si funcionara perfectamente, ¿que cambiaría en la vida de los estudiantes o docentes? Terminen con una imagen concreta.
+Rubrica de evaluación entre pares
+Cada participante usa esta rúbrica para evaluar las presentaciones de OTROS grupos. El docente la usa para la evaluación final.
+Grupo evaluado: _________________________________   Evaluado por: _________________________________
+Criterio
+Excelente (3 
+pts
+)
+Bueno (2 
+pts
+)
+En desarrollo (1 pt)
+Ptos
+1. Pertinencia del problema
+El problema es real, especifico y claramente relevante para la educación
+El problema es relevante, pero algo vago o general
+El problema no está claramente definido o no es educativo
+/ 3
+2. Justificación técnica
+Explican correctamente 
+por que
+ esa arquitectura es la adecuada para ese tipo de datos
+Mencionan la arquitectura correcta pero la justificación es superficial
+La arquitectura elegida no corresponde al problema o no hay justificación
+/ 3
+3. Consideración ética
+Identifican al menos dos riesgos concretos y proponen medidas específicas para mitigarlos
+Identifican un riesgo, pero la propuesta de mitigación es genérica
+No identifican riesgos éticos o la reflexión es muy superficial
+/ 2
+4. Enlace a GitHub
+Carga exitosa. 
+Carga parcial
+Carga 
+semi-parcial
+ 
+/ 2
+TOTAL:
+/ 10
+Comentario más valioso que puedo dar a este grupo:
+ 
+ 
+La idea que me llevo de esta presentación para mi propia práctica docente:
+ 
+ 
+Bibliografía
+Organización para la Cooperación y el Desarrollo Económicos. (2025). 
+Claves para una enseñanza de alta calidad
+. OECD. 
+https://www.oecd.org/content/dam/oecd/es/publications/reports/2025/04/unlocking-high-quality-teaching_808bd876/c7a96927-es.pdf
+ 
+Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura. (2024). 
+Inteligencia artificial y educación: Guía para las personas a cargo de formular políticas
+. UNESCO. 
+https://unesdoc.unesco.org/ark:/48223/pf0000379376
+ 
+Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura. (2026). 
+La inteligencia artificial en la educación
+. UNESCO. 
+https://www.unesco.org/es/digital-education/artificial-intelligence
+ 

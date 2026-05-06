@@ -1,0 +1,242 @@
+:root {
+    --primario: #4A90E2;
+    --secundario: #50E3C2;
+    --acento: #F5A623;
+    --rojo: #E74C3C;
+    --verde: #2ECC71;
+    --blanco: #FFFFFF;
+    --fondo: #F9F9F9;
+    --texto: #333333;
+    --sombra: rgba(0, 0, 0, 0.1);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Fredoka', sans-serif; }
+
+body {
+    background-color: var(--fondo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.app-container {
+    width: 100%;
+    max-width: 480px;
+    height: 100vh;
+    max-height: 850px;
+    background-color: var(--blanco);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 481px) {
+    .app-container {
+        height: 90vh;
+        border-radius: 30px;
+        box-shadow: 0 20px 40px var(--sombra);
+    }
+}
+
+.pantalla {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    animation: fadeIn 0.4s ease;
+}
+
+.pantalla.activa { display: flex; }
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* Utilidades */
+.mt-auto { margin-top: auto; margin-bottom: 20px;}
+.titulo-principal { color: var(--primario); font-size: 2.5rem; margin-bottom: 10px;}
+.subtitulo { color: var(--texto); font-size: 1.2rem; margin-bottom: 20px; opacity: 0.8;}
+.text-verde { color: var(--verde); }
+
+/* Header y Badges */
+.header-menu, .header-simple {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.header-simple { border-bottom: 2px solid #eee; padding-bottom: 15px;}
+
+.badge-estrellas {
+    background-color: var(--acento);
+    color: var(--blanco);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 0 #d48a1a;
+}
+
+/* Botones genéricos */
+button { border: none; cursor: pointer; font-family: inherit; font-weight: 600; transition: transform 0.1s; outline: none; }
+button:active { transform: scale(0.95); }
+.btn-icon { background: none; font-size: 1.1rem; color: var(--primario); }
+.btn-primario, .btn-secundario {
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    color: var(--blanco);
+}
+.btn-primario { background-color: var(--primario); box-shadow: 0 5px 0 #3a75b8; }
+.btn-secundario { background-color: var(--acento); box-shadow: 0 5px 0 #d48a1a; }
+
+/* Grid de Temas */
+.grid-temas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+}
+
+.btn-tema {
+    background-color: var(--fondo);
+    border: 2px solid #eee;
+    border-radius: 20px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.btn-tema:hover { border-color: var(--primario); background-color: #f0f7ff; }
+.tema-icono { font-size: 3rem; }
+.tema-nombre { font-size: 1.2rem; color: var(--texto); }
+
+/* Niveles */
+.niveles-container { display: flex; flex-direction: column; gap: 15px; width: 100%; }
+.btn-nivel {
+    background-color: var(--blanco);
+    border: 3px solid var(--secundario);
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    color: var(--texto);
+    box-shadow: 0 4px 0 var(--secundario);
+}
+.btn-nivel.completado { background-color: var(--secundario); color: var(--blanco); }
+
+/* Juego Brinca la Palabra */
+.contenedor-brinca { width: 100%; flex-grow: 1; display: flex; flex-direction: column; }
+.brinca-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    background: #eee;
+    padding: 15px;
+    border-radius: 20px;
+}
+.img-realista-pequena {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px var(--sombra);
+}
+.btn-audio-small {
+    background: var(--primario);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+.rio-container {
+    background: #a2d9ff; /* color río */
+    flex-grow: 1;
+    border-radius: 20px;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; /* Personaje empieza abajo */
+}
+
+.personaje-brinca {
+    font-size: 3rem;
+    position: absolute;
+    bottom: 10px;
+    transition: transform 0.4s ease-in-out;
+    z-index: 10;
+}
+
+.piedras-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 80px; /* espacio para que empiece el pj */
+}
+
+.piedra {
+    background-color: #95a5a6;
+    color: white;
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0 6px 0 #7f8c8d;
+    cursor: pointer;
+}
+
+.piedra:active { transform: translateY(4px); box-shadow: 0 2px 0 #7f8c8d; }
+.piedra-correcta { background-color: var(--verde); box-shadow: 0 6px 0 #27ae60; }
+.piedra-incorrecta { background-color: var(--rojo); box-shadow: 0 6px 0 #c0392b; animation: shake 0.4s; }
+
+/* Logros */
+.insignias-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+.insignia {
+    background: #fff3e0;
+    border: 2px solid var(--acento);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.insignia-icono { font-size: 3rem; margin-bottom: 10px; }
+
+/* Notificación Bonus */
+.notificacion-bonus {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--acento);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    z-index: 1000;
+    animation: popUp 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.notificacion-bonus.desvanecer { opacity: 0; transition: opacity 0.5s; }
+
+@keyframes popUp { 0% { transform: translate(-50%, 20px) scale(0.5); opacity: 0; } 100% { transform: translate(-50%, 0) scale(1); opacity: 1; } }
+@keyframes shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-5px); } 50% { transform: translateX(5px); } 75% { transform: translateX(-5px); } }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacho Aprende Pro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Pantalla de Menú Principal -->
+        <div id="pantalla-menu-principal" class="pantalla activa">
+            <div class="header-menu">
+                <h1 class="titulo-principal">Nacho Aprende</h1>
+                <div class="badge-estrellas">⭐ <span class="estrellas-totales-ui">0</span></div>
+            </div>
+            
+            <h2 class="subtitulo">Elige un tema para explorar:</h2>
+            <div id="grid-temas" class="grid-temas">
+                <!-- Temas dinámicos -->
+            </div>
+            
+            <button id="btn-ver-logros" class="btn-secundario mt-auto">🏆 Mis Logros</button>
+        </div>
+
+        <!-- Pantalla de Selección de Nivel -->
+        <div id="pantalla-seleccion-nivel" class="pantalla">
+            <div class="header-simple">
+                <button id="btn-volver-menu" class="btn-icon">⬅️ Volver</button>
+                <div class="badge-estrellas">⭐ <span class="estrellas-totales-ui">0</span></div>
+            </div>
+            
+            <h1 id="titulo-categoria" class="titulo-categoria">Categoría</h1>
+            <h2 class="subtitulo">Selecciona un nivel:</h2>
+            <div id="niveles-container" class="niveles-container">
+                <!-- Niveles dinámicos -->
+            </div>
+        </div>
+
+        <!-- Pantalla de Juego: Brinca la Palabra -->
+        <div id="pantalla-juego-brinca" class="pantalla">
+            <div class="header-simple">
+                <button id="btn-volver-de-juego" class="btn-icon">⬅️ Salir</button>
+                <div class="badge-estrellas">⭐ <span class="estrellas-totales-ui">0</span></div>
+            </div>
+            
+            <h2 class="instruccion-juego">Ayúdame a cruzar seleccionando las sílabas en orden</h2>
+            
+            <div id="contenedor-brinca" class="contenedor-brinca">
+                <!-- Juego renderizado dinámicamente -->
+            </div>
+        </div>
+
+        <!-- Pantalla de Logros -->
+        <div id="pantalla-logros" class="pantalla">
+            <div class="header-simple">
+                <button id="btn-volver-de-logros" class="btn-icon">⬅️ Volver</button>
+            </div>
+            
+            <h1 class="titulo-principal">Tus Insignias</h1>
+            <div id="insignias-container" class="insignias-container">
+                <!-- Insignias generadas -->
+            </div>
+        </div>
+        
+        <!-- Pantalla Final -->
+        <div id="pantalla-final" class="pantalla">
+            <h1 class="titulo-principal text-verde">¡Nivel Completado!</h1>
+            <p id="mensaje-final" class="mensaje-final">¡Has ganado una nueva insignia!</p>
+            <div class="estrellas-finales">⭐⭐⭐⭐⭐</div>
+            <button onclick="mostrarPantalla('menuPrincipal')" class="btn-primario mt-auto">Volver al Menú</button>
+        </div>
+    </div>
+
+    <!-- Scripts de la app modulares -->
+    <script src="js/data.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/games.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
